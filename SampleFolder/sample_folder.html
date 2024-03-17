@@ -4,7 +4,19 @@
         <title>Sample Folder</title>
     </head>
     <body>
+        <h2>Variables</h2>
+        <h3>Discussion on Variables</h3>
         <h1>Sample Folder</h1>
         <button>SampleFolder</button>
+
+        function show(){
+            var functionVar="I'm a block-scoped var";
+            let functionlet="I'm a block scoped let";
+            const functionConst="I'm a block scoped const";
+        }
+        show();
+        console.log(functionVar);
+        console.log(functionLet);
+        console.log(functionConst);
     </body>
 </html>
